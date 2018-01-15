@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/objectType.xsd">
+	<import>
+		<type>
+			<name>de.wcflabs.trophies.trophyExporter.WCFLabsTrophyExporter</name>
+			<definitionname>com.woltlab.wcf.exporter</definitionname>
+			<classname>wcf\system\exporter\WCFLabsTrophyExporter</classname>
+		</type>
+		<type>
+			<name>de.wcflabs.trophies.trophyExporter.user.fakeImport</name>
+			<definitionname>com.woltlab.wcf.importer</definitionname>
+		</type>
+	</import>
+</data>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en" languagename="English" countrycode="en">
+	<category name="wcf.acp.dataImport">
+		<item name="wcf.acp.dataImport.exporter.de.wcflabs.trophies.trophyExporter.WCFLabsTrophyExporter"><![CDATA[WCFLabs Trophy Plugin]]></item>
+		<item name="wcf.acp.dataImport.data.de.wcflabs.trophies.user.fakeImport"><![CDATA[User “Fake“ Import (only select, if you import without users)]]></item>
+	</category>
+</language>

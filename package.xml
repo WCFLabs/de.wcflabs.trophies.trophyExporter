@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.wcflabs.trophies.trophyExporter" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/package.xsd">
+	<packageinformation>
+		<packagename>Trophy Exporter</packagename>
+		<packagename language="de">Trophäen Exporter</packagename>
+		<version>1.0.0 RC 1</version>
+		<date>2017-11-13</date>
+		<license><![CDATA[GNU Lesser General Public License]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Joshua Rüsweg</author>
+		<authorurl>https://www.wcflabs.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.1.0 RC 1">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="1.0.0 Alpha 1">de.wcflabs.trophies.exporter</excludedpackage>
+	</excludedpackages>
+	
+	<compatibility>
+		<api version="2018" />
+	</compatibility>
+	
+	<instructions type="install">
+		<instruction type="file" />
+		<instruction type="objectType" />
+		<instruction type="language" />
+	</instructions>
+</package>
